@@ -1,0 +1,20 @@
+.menu {
+  margin: 2rem 5rem 0 5rem;
+  outline: none;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 5px;
+  color: inherit;
+}
+
+a:visited a:active {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  background: lightgray;
+}

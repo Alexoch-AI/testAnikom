@@ -1,0 +1,14 @@
+.buttonControl {
+  margin-right: 20px;
+  outline: none;
+  background: white;
+  color: #ff8383;
+  border: none;
+}
+
+.buttonControl:hover {
+  margin-right: 20px;
+  background: white;
+  color: #ff8383;
+  text-decoration: underline;
+}

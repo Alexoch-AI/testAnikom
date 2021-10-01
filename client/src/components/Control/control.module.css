@@ -1,0 +1,175 @@
+.polygon1 {
+  width: 0px;
+  height: 0px;
+  margin-left: 10px;
+  position: absolute;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 10px solid #c4c4c4;
+}
+
+.menuControl {
+  padding: 2rem 5rem 0 5rem;
+  list-style: none;
+}
+
+.menuControl li {
+  visibility: hidden;
+  margin-top: 10px;
+}
+
+.menuControl:hover li {
+  visibility: visible;
+}
+
+.menuControl:hover .polygon1 {
+  width: 0px;
+  height: 0px;
+  margin-left: 10px;
+  position: absolute;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 10px solid #c4c4c4;
+  border-top: 0px;
+}
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 5px;
+  width: 15px;
+  height: 15px;
+  opacity: 0.3;
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before,
+.close:after {
+  position: absolute;
+  left: 15px;
+  content: " ";
+  height: 33px;
+  width: 2px;
+  background-color: #333;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+.dropArea {
+  width: 93.3%;
+  height: 42px;
+  border: 1px dashed black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 12px;
+  margin: 0 0 10px 0;
+}
+
+.customFileUpload {
+  width: 93.3%;
+  border: 1px solid #ccc;
+  display: flex;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin: 0 0 10px 0;
+  background-color: rgba(229, 229, 229, 0.3);
+  height: 42px;
+  justify-content: center;
+  align-items: center;
+}
+
+.divLabelFileUpload {
+  display: flex;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+input {
+  border: 1px solid #cccccc;
+  background: #ffffff !important;
+  outline: none;
+  height: 30px;
+  width: 96%;
+  font-size: 13px;
+  font-family: Tahoma;
+  margin: 10px 0 10px 0;
+}
+
+.number {
+  border: 1px solid #cccccc;
+  background: #ffffff !important;
+  outline: none;
+  height: 30px;
+  width: 90%;
+  font-size: 13px;
+  font-family: Tahoma;
+  margin: 10px 0 10px 0;
+}
+
+.formDiv {
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.formColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.labelNumberInputs {
+  margin-left: 20px;
+}
+
+select {
+  border: 1px solid #cccccc;
+  background: #ffffff !important;
+  outline: none;
+  height: 30px;
+  width: 96%;
+  font-size: 13px;
+  font-family: Tahoma;
+  margin: 10px 0 10px 0;
+}
+
+.divButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonSumbit {
+  background: #6ee064;
+  border: 1px solid #cccccc;
+  outline: none;
+  width: 126px;
+  height: 32px;
+  font-size: 13px;
+  font-family: Tahoma;
+  margin: 0 30px 0 0;
+}
+
+.buttonClose {
+  background: lightgray;
+  border: 1px solid #cccccc;
+  outline: none;
+  width: 126px;
+  height: 32px;
+  font-size: 13px;
+  font-family: Tahoma;
+}
+
+.buttonControl {
+  outline: none;
+  background: white;
+  border: none;
+}
